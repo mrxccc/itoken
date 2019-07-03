@@ -50,7 +50,7 @@
 * 容器编排：Kubernetes
 
 ## 系统架构
-
+![image](https://github.com/BernardLowe/itoken/blob/master/image/system.png)
 ## 服务规划
 ### Cloud
 
