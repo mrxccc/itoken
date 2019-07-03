@@ -1,0 +1,15 @@
+version: '3.1'
+services:
+  itoken-service-redis:
+    restart: always
+    image: 192.168.17.131:5000/itoken-service-redis
+    container_name: itoken-service-redis
+    ports:
+      - 8502:8502
+    networks:
+      - cloud
+
+networks:
+  cloud:
+    external:
+      name: spring_cloud

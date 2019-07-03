@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: itoken-config
+  boot:
+    admin:
+      client:
+        url: http://192.168.17.133:8084
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: http://192.168.17.130:8080/itoken/itoken-config-respo.git
+          search-paths: respo
+          username: BernardLowe@163.com
+          password: Xc58525456
+  zipkin:
+    base-url: http://192.168.17.133:9411
+
+server:
+  port: 8888
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.17.133:8761/eureka/
+  instance:
+    prefer-ip-address: true #以IP地址注册到服务中心
+    #instance-id: http://192.168.1.4:8110 #服务中心的信息显示（如果IP地址不显示的话，进行配置）
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health,info

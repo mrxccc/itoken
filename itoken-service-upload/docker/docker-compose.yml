@@ -1,0 +1,15 @@
+version: '3.1'
+services:
+  itoken-zipkin:
+    restart: always
+    image: 192.168.17.131:5000/itoken-service-upload
+    container_name: itoken-service-upload
+    ports:
+      - 8505:8505
+    networks:
+      - cloud
+
+networks:
+  cloud:
+    external:
+      name: spring_cloud

@@ -1,0 +1,9 @@
+com\funtl\itoken\web\digiccy\service\RedisService.class
+com\funtl\itoken\web\digiccy\controller\DigiccyMainController.class
+com\funtl\itoken\web\digiccy\service\fallback\RedisServiceFallback.class
+com\funtl\itoken\web\digiccy\config\WebInterceptorConfiguration.class
+com\funtl\itoken\web\digiccy\service\DigiccyExchangeService.class
+com\funtl\itoken\web\digiccy\interceptor\LoginInterceptor.class
+com\funtl\itoken\web\digiccy\WebDigiccyApplication.class
+com\funtl\itoken\web\digiccy\controller\DigiccyExchangeController.class
+com\funtl\itoken\web\digiccy\service\fallback\DigiccyExchangeServiceFallback.class
