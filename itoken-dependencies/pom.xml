@@ -33,7 +33,7 @@
         <!-- Environment Settings -->
         <mysql.version>5.1.46</mysql.version>
         <lombok.version>1.16.18</lombok.version>
-        <guava.version>25.1-jre</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <nekohtml.version>1.9.22</nekohtml.version>
         <jackson.version>2.10.0.pr1</jackson.version>
         <feign-form.version>3.3.0</feign-form.version>
