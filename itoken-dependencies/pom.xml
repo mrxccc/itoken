@@ -35,7 +35,7 @@
         <lombok.version>1.16.18</lombok.version>
         <guava.version>25.1-jre</guava.version>
         <nekohtml.version>1.9.22</nekohtml.version>
-        <jackson.version>2.10.0.pr1</jackson.version>
+        <jackson.version>2.12.6.1</jackson.version>
         <feign-form.version>3.3.0</feign-form.version>
         <swagger2.version>2.8.0</swagger2.version>
     </properties>
